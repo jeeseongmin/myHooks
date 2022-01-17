@@ -1,12 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import { InputPage } from "@pages/InputPage";
+import Home from "@pages/Home";
 
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+	return (
+		<>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/useInput" element={<InputPage />} />
+			</Routes>
+		</>
+	);
 }
 
 export default App;
