@@ -5,7 +5,7 @@ export interface IAppProps {}
 export function TapPage(props: IAppProps) {
     return (
         <div>
-            TapPage
+            TapPage update
         </div>
     );
 };
