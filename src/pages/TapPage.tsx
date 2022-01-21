@@ -1,11 +1,7 @@
-import * as React from 'react';
+import * as React from "react";
 
 export interface IAppProps {}
 
 export function TapPage(props: IAppProps) {
-    return (
-        <div>
-            TapPage update 22
-        </div>
-    );
-};
+  return <div>TapPage update 22</div>;
+}
