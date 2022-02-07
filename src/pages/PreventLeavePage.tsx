@@ -1,10 +1,10 @@
 import React, { FC, useEffect, useState } from "react";
 
-type useAxiosLoaderProps = {};
+type PreventLeavePageProps = {};
 
-type useAxiosLoaderState = {};
+type PreventLeavePageState = {};
 
-const useAxiosLoader: FC<useAxiosLoaderProps> = ({}) => {
+const PreventLeavePage: FC<PreventLeavePageProps> = ({}) => {
   // |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   // | State Variables
   // |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*
@@ -24,4 +24,4 @@ const useAxiosLoader: FC<useAxiosLoaderProps> = ({}) => {
   return <div></div>;
 };
 
-export default useAxiosLoader;
+export default PreventLeavePage;

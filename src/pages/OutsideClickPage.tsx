@@ -5,7 +5,7 @@ type ClickPageProps = {};
 
 type ClickPageState = {};
 
-export const ClickPage: FC<ClickPageProps> = ({}) => {
+export const OutsideClickPage: FC<ClickPageProps> = ({}) => {
   // |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   // | State Variables
   // |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*
